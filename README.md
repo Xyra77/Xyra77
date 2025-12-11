@@ -20,7 +20,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://t.me/Xyra77" target="blank"><img align="center" src="https://static.vecteezy.com/system/resources/previews/023/741/064/original/telegram-logo-icon-social-media-icon-free-png.png" alt="Xyra77" height="40" width="40" /></a>
-<a href="https://www.youtube.com/c/xyra77" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Xyra77" height="40" width="40" /></a>
+<a href="https://youtube.com/@xyra7772" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Xyra77" height="40" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
