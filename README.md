@@ -8,7 +8,7 @@
     "Name": "Xyra77",
     "Company": "Xyra AI Company",
     "Location": "St.Petersburg, Russia",
-    "Program": "Python 3.10"
+    "Program": "Python 3.14"
   }
 )
 ```
