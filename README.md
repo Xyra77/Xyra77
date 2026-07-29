@@ -43,6 +43,7 @@
   <a href="https://www.java.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
   <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/></a>
   <a href="https://www.php.net" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/></a>
+  <a href="https://www.lua.org" target="_blank"><img src="https://www.lua.org/images/luaa.gif" alt="lua" width="40" height="40"/></a>
   <a href="https://img.sanishtech.com/u/c69f724c728727148e799075b7ebc9a5.png" target="_blank">
     <img src="https://b.top4top.io/p_3799m5jcu1.png" alt="loop" width="40" height="40"/>
   </a>
