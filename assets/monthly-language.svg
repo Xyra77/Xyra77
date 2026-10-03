@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="430" height="118" viewBox="0 0 430 118" role="img" aria-label="Monthly language card pending first workflow run"><rect x="1" y="1" width="428" height="116" rx="13" fill="#1c173d" stroke="#5b2a86"/><text x="22" y="29" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#ffb36b">MONTHLY LANGUAGE</text><text x="22" y="66" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#fff1e0">Waiting for first update</text><text x="22" y="91" font-family="Arial,sans-serif" font-size="12" fill="#c8b6e8">Run the “Update Monthly Language Card” workflow.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="118" viewBox="0 0 430 118" role="img" aria-label="Most changed language this month: Shell">
+<rect x="1" y="1" width="428" height="116" rx="13" fill="#1c173d" stroke="#5b2a86"/>
+<text x="22" y="29" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#ffb36b">MONTHLY LANGUAGE · OCTOBER 2026</text>
+<circle cx="67" cy="72" r="25" fill="none" stroke="#4b315b" stroke-width="7"/>
+<circle cx="67" cy="72" r="25" fill="none" stroke="#ff6b8b" stroke-width="7" stroke-linecap="round" stroke-dasharray="112 157" transform="rotate(-90 67 72)"/>
+<text x="67" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#fff1e0">Shell</text>
+<text x="112" y="69" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#fff1e0">Shell</text>
+<text x="112" y="91" font-family="Arial,sans-serif" font-size="12" fill="#c8b6e8">622 changed lines across public repos</text>
+</svg>
