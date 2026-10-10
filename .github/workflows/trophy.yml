@@ -11,28 +11,77 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update:
+  render:
+    name: render-trophy
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
+      # Trophy source is pinned to a fixed commit so upstream changes can't break this run
+      - name: Checkout trophy source
+        uses: actions/checkout@v5
+        with:
+          repository: ryo-ma/github-profile-trophy
+          ref: e3c89df995e92e67cdd4b2acaab9d974583dc1f7
+          persist-credentials: false
 
-      - name: Download trophy card
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Render trophy locally (no public server needed)
         env:
+          # Uses TROPHY_TOKEN (optional personal token) if you created it, otherwise the default token
+          GITHUB_TOKEN1: ${{ secrets.TROPHY_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN2: ${{ secrets.TROPHY_TOKEN || secrets.GITHUB_TOKEN }}
+          PORT: "8080"
           GH_USERNAME: ${{ github.repository_owner }}
         run: |
           set -euo pipefail
-          URL="https://github-profile-trophy.vercel.app/?username=${GH_USERNAME}&theme=radical&no-bg=true&no-frame=true&row=2&column=6&margin-w=12&margin-h=12"
-          curl --fail --silent --show-error --location \
-            --max-time 60 --retry 6 --retry-delay 10 --retry-all-errors \
-            -o /tmp/trophy.svg "$URL"
-          grep -q "<svg" /tmp/trophy.svg
-          mv /tmp/trophy.svg assets/trophy.svg
+          deno run -A main.ts > /tmp/server.log 2>&1 &
+
+          for i in $(seq 1 60); do
+            if curl -s -o /dev/null "http://localhost:8080/"; then break; fi
+            sleep 2
+          done
+
+          URL="http://localhost:8080/?username=${GH_USERNAME}&theme=radical&no-bg=true&no-frame=true&row=2&column=6&margin-w=12&margin-h=12"
+          if ! curl --fail --silent --show-error --max-time 60 -o trophy.svg "$URL"; then
+            echo "---- server log ----"
+            cat /tmp/server.log
+            exit 1
+          fi
+          grep -q "<svg" trophy.svg
+
+      - name: Upload trophy
+        uses: actions/upload-artifact@v4
+        with:
+          name: trophy
+          path: trophy.svg
+          if-no-files-found: error
+
+  commit:
+    name: commit-trophy
+    needs: render
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Download trophy
+        uses: actions/download-artifact@v4
+        with:
+          name: trophy
+          path: /tmp/trophy
 
       - name: Commit card if changed
         run: |
+          mkdir -p assets
+          cp /tmp/trophy/trophy.svg assets/trophy.svg
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/trophy.svg
