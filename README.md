@@ -104,13 +104,22 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=1000&color=FF3F8E&center=true&vCenter=true&width=460&height=45&repeat=false&lines=%E2%96%B6+STATUS+SCREEN" alt="Status Screen" />
 </p>
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Xyra77&show_icons=true&include_all_commits=true&hide_rank=true&border_color=2a2a3d&bg_color=07070f&title_color=00e5ff&icon_color=ff3f8e&text_color=eef4ff&ring_color=ff3f8e&border_radius=0" alt="GitHub stats" />
+  <img src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
+</p>
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Xyra77&show_icons=true&include_all_commits=true&border_color=2a2a3d&bg_color=07070f&title_color=00e5ff&icon_color=ff3f8e&text_color=eef4ff&ring_color=ff3f8e&border_radius=0" alt="GitHub stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=Xyra77&background=07070f&border=2a2a3d&stroke=2a2a3d&ring=ff3f8e&fire=ffe14d&currStreakNum=eef4ff&sideNums=eef4ff&currStreakLabel=00e5ff&sideLabels=eef4ff&dates=5a6b8c&border_radius=0" alt="GitHub streak" />
+</p>
+<p align="center">
+  <img width="32%" src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/profile-summary-card-output/radical/1-repos-per-language.svg" alt="Most used languages" />
+  <img width="32%" src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/profile-summary-card-output/radical/3-stats.svg" alt="Stats" />
+  <img width="32%" src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/profile-summary-card-output/radical/4-productive-time.svg" alt="Commits per hour" />
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/assets/monthly-language.svg" alt="Most changed programming language this month" width="430" />
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Xyra77&background=07070f&border=2a2a3d&stroke=2a2a3d&ring=ff3f8e&fire=ffe14d&currStreakNum=eef4ff&sideNums=eef4ff&currStreakLabel=00e5ff&sideLabels=eef4ff&dates=5a6b8c&border_radius=0" alt="GitHub streak" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Xyra77&theme=radical&no-bg=true&no-frame=true&row=2&column=6&margin-w=12&margin-h=12" alt="GitHub trophies" width="100%" />
 </p>
 <img src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/assets/divider.svg" alt="" width="100%" />
 <p align="center">
