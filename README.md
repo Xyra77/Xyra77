@@ -119,7 +119,7 @@
   <img src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/assets/monthly-language.svg" alt="Most changed programming language this month" width="430" />
 </p>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Xyra77&theme=radical&no-bg=true&no-frame=true&row=2&column=6&margin-w=12&margin-h=12" alt="GitHub trophies" width="100%" />
+  <img src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/assets/trophy.svg" alt="GitHub trophies" width="100%" />
 </p>
 <img src="https://raw.githubusercontent.com/Xyra77/Xyra77/main/assets/divider.svg" alt="" width="100%" />
 <p align="center">
