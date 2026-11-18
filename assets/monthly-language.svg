@@ -3,7 +3,7 @@ width="430"
 height="118"
 viewBox="0 0 430 118"
 role="img"
-aria-label="Top programming language this month: PHP">
+aria-label="Top programming language this month: SQL">
 
 <rect
 x="1"
@@ -39,7 +39,7 @@ font-family="'Courier New',Consolas,monospace"
 font-size="14"
 font-weight="700"
 fill="#ffe14d">
-PHP
+SQL
 </text>
 
 <text
@@ -49,7 +49,7 @@ font-family="'Courier New',Consolas,monospace"
 font-size="20"
 font-weight="700"
 fill="#eafcff">
-PHP
+SQL
 </text>
 
 <rect x="112" y="86" width="34" height="10" fill="#ff4fd8"/>
@@ -68,7 +68,7 @@ font-family="'Courier New',Consolas,monospace"
 font-size="12"
 letter-spacing="1"
 fill="#6a7aa0">
-4 CHANGED LINES THIS MONTH
+104 CHANGED LINES THIS MONTH
 </text>
 
 </svg>
